@@ -1,0 +1,79 @@
+name: CI/CD AutoCloser AI — Build, Push & Deploy on AWS EC2
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Mon_projet/autocloser-workspace/autocloser-gateway/**'
+      - 'Mon_projet/autocloser-workspace/autocloser-frontend/**'
+      - 'Mon_projet/autocloser-workspace/docker-compose-ec2.yml'
+
+jobs:
+  # ─────────────────────────────────────────────────────────────────
+  # JOB 1 : Construire & Pousser l'image Spring Boot sur Docker Hub
+  # ─────────────────────────────────────────────────────────────────
+  build_and_push:
+    name: Build & Push Docker Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout du code source
+        uses: actions/checkout@v4
+
+      - name: 🐳 Se connecter à Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: ⚙️ Setup Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: 🏗️ Construire et pousser l'image Spring Boot
+        uses: docker/build-push-action@v5
+        with:
+          context: ./Mon_projet/autocloser-workspace/autocloser-gateway
+          file: ./Mon_projet/autocloser-workspace/autocloser-gateway/Dockerfile
+          push: true
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/autocloser-gateway:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/autocloser-gateway:${{ github.sha }}
+
+  # ─────────────────────────────────────────────────────────────────
+  # JOB 2 : Déployer sur l'instance EC2 via SSH
+  # ─────────────────────────────────────────────────────────────────
+  deploy:
+    name: Deploy to AWS EC2
+    runs-on: ubuntu-latest
+    needs: build_and_push # Démarre seulement après le Build
+    steps:
+      - name: 📥 Checkout du code source
+        uses: actions/checkout@v4
+
+      - name: 🚀 Déploiement SSH sur EC2
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ubuntu
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            # Télécharger la dernière version du docker-compose
+            curl -o /home/ubuntu/autocloser/docker-compose-ec2.yml \
+              https://raw.githubusercontent.com/MalickDevWeb/Response-AI-Bussness/main/Mon_projet/autocloser-workspace/docker-compose-ec2.yml
+
+            # Injecter l'IP publique dynamique
+            PUBLIC_IP=$(curl http://checkip.amazonaws.com)
+            sed -i "s|VOTRE_IP_EC2_PUBLIQUE|$PUBLIC_IP|g" /home/ubuntu/autocloser/docker-compose-ec2.yml
+
+            # Mettre à jour le nom de l'image avec le nom Docker Hub
+            sed -i "s|IMAGE_AUTOCLOSER|${{ secrets.DOCKERHUB_USERNAME }}/autocloser-gateway:latest|g" \
+              /home/ubuntu/autocloser/docker-compose-ec2.yml
+
+            # Aller dans le dossier
+            cd /home/ubuntu/autocloser
+
+            # Puller les nouvelles images et relancer les containers
+            docker-compose -f docker-compose-ec2.yml pull
+            docker-compose -f docker-compose-ec2.yml up -d --force-recreate
+
+            echo "✅ Déploiement terminé avec succès !"

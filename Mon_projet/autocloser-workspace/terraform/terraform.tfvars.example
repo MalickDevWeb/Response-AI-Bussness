@@ -1,0 +1,5 @@
+# Copiez ce fichier en terraform.tfvars et remplissez vos valeurs.
+# Ce fichier ne doit JAMAIS être commité sur GitHub !
+
+aws_region = "us-east-1"
+public_key = "ssh-rsa AAAA...VOTRE_CLE_PUBLIQUE_SSH..."
