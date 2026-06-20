@@ -1,0 +1,81 @@
+services:
+  # 1. Base de données avec pgvector (Pour le stockage classique et la recherche RAG)
+  postgres:
+    image: ankane/pgvector:latest
+    container_name: autocloser-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: super_password_123
+      POSTGRES_DB: autocloser
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  # 2. Redis (file d'attente messages)
+  redis:
+    image: redis:alpine
+    container_name: autocloser-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  # 3. Moteur IA Local (Ollama)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: autocloser-ollama
+    ports:
+      - "11435:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    restart: unless-stopped
+
+  # 4. Passerelle WhatsApp (Evolution API v2)
+  evolution-api:
+    image: atendai/evolution-api:latest
+    container_name: autocloser-whatsapp
+    ports:
+      - "8081:8080"
+    volumes:
+      - evolution_instances:/evolution/instances
+      # Certificat Fortinet pour l'inspection SSL
+      - ./fortinet.crt:/fortinet.crt:ro
+    environment:
+      - SERVER_URL=http://localhost:8081
+      - DOCKER_ENV=true
+      - AUTHENTICATION_TYPE=apikey
+      - AUTHENTICATION_API_KEY=AutocloserSecretKey2026
+      # Forcer Node.js à utiliser le certificat du proxy
+      - NODE_EXTRA_CA_CERTS=/fortinet.crt
+      # Désactivation SSL pour dev local (Baileys/WhatsApp WebSocket)
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+      # Redis DÉSACTIVÉ
+      - CACHE_REDIS_ENABLED=false
+      - CACHE_LOCAL_ENABLED=true
+      # BDD Evolution (via réseau bridge Docker interne)
+      - DATABASE_PROVIDER=postgresql
+      - DATABASE_CONNECTION_URI=postgresql://postgres:super_password_123@autocloser-db:5432/evolution?schema=public
+      - DATABASE_SAVE_DATA_INSTANCE=true
+      - DATABASE_SAVE_DATA_NEW_MESSAGE=true
+      - DATABASE_SAVE_MESSAGE_UPDATE=true
+      - DATABASE_SAVE_DATA_CONTACTS=true
+      - DATABASE_SAVE_DATA_CHATS=true
+      # QR Code
+      - QRCODE_LIMIT=30
+      - QRCODE_COLOR=#000000
+      # Webhook global désactivé en dev
+      - WEBHOOK_GLOBAL_URL=
+      - WEBHOOK_GLOBAL_ENABLED=false
+      # Logs
+      - LOG_LEVEL=DEBUG
+      - LOG_COLOR=true
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+
+volumes:
+  postgres-data:
+  ollama-data:
+  evolution_instances:
