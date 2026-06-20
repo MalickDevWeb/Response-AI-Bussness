@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # Base de données pour sauvegarder les sessions WhatsApp
+  evolution-db:
+    image: postgres:14-alpine
+    container_name: evolution-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: super_password_123
+      POSTGRES_DB: evolution
+    volumes:
+      - evolution_pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  # L'API Evolution
+  evolution-api:
+    image: atendai/evolution-api:latest
+    container_name: evolution-api
+    depends_on:
+      - evolution-db
+    ports:
+      - "8080:8080"
+    volumes:
+      - evolution_instances:/evolution/instances
+    environment:
+      - SERVER_URL=http://VOTRE_IP_EC2_PUBLIQUE:8080
+      - DOCKER_ENV=true
+      - AUTHENTICATION_TYPE=apikey
+      - AUTHENTICATION_API_KEY=AutocloserSecretKey2026
+      
+      # Base de données
+      - DATABASE_PROVIDER=postgresql
+      - DATABASE_CONNECTION_URI=postgresql://postgres:super_password_123@evolution-db:5432/evolution?schema=public
+      - DATABASE_SAVE_DATA_INSTANCE=true
+      - DATABASE_SAVE_DATA_NEW_MESSAGE=true
+      - DATABASE_SAVE_MESSAGE_UPDATE=true
+      
+      # Désactiver le cache Redis pour économiser la RAM sur EC2 (serveur t2.micro)
+      - CACHE_REDIS_ENABLED=false
+      - CACHE_LOCAL_ENABLED=true
+
+volumes:
+  evolution_pgdata:
+  evolution_instances:
