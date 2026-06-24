@@ -31,8 +31,8 @@ public class EvolutionApiAdapter implements EnvoiMessagePort,
         sn.autocloser.domain.port.messagerie.GestionInstancePort {
 
     private static final Logger log = LoggerFactory.getLogger(EvolutionApiAdapter.class);
-    private static final int QR_MAX_RETRIES    = 2;
-    private static final int QR_RETRY_DELAY_MS = 1500;
+    private static final int QR_MAX_RETRIES    = 15;
+    private static final int QR_RETRY_DELAY_MS = 2000;
 
     private final RestTemplate restTemplate;
     private final ObjectMapper objectMapper;

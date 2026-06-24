@@ -1,28 +1,14 @@
 version: '3.8'
 
 services:
-  # ─── Base de données pour Evolution API ────────────────────────
-  evolution-db:
-    image: postgres:14-alpine
-    container_name: evolution-db
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: super_password_123
-      POSTGRES_DB: evolution
-    volumes:
-      - evolution_pgdata:/var/lib/postgresql/data
-    restart: unless-stopped
-
-  # ─── Gateway WhatsApp (Evolution API) ──────────────────────────
   evolution-api:
     image: atendai/evolution-api:latest
     container_name: evolution-api
     depends_on:
       - evolution-db
+      - redis
     ports:
       - "8080:8080"
-    volumes:
-      - evolution_instances:/evolution/instances
     environment:
       - SERVER_URL=http://VOTRE_IP_EC2_PUBLIQUE:8080
       - DOCKER_ENV=true
@@ -35,26 +21,27 @@ services:
       - DATABASE_SAVE_MESSAGE_UPDATE=true
       - DATABASE_SAVE_DATA_CONTACTS=true
       - DATABASE_SAVE_DATA_CHATS=true
-      - CACHE_REDIS_ENABLED=false
-      - CACHE_LOCAL_ENABLED=true
+      - CACHE_REDIS_ENABLED=true
+      - CACHE_REDIS_URI=redis://autocloser-redis:6379/6
+      - CACHE_LOCAL_ENABLED=false
       - QRCODE_LIMIT=30
+      - WA_BROWSER_NAME=Mac OS
+      - WA_BROWSER_VERSION=10.15.7
     restart: unless-stopped
 
-  # ─── Base de données PostgreSQL + pgvector (RAG & données métier) ──
-  autocloser-db:
+  evolution-db:
     image: ankane/pgvector:latest
-    container_name: autocloser-db
+    container_name: evolution-db
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: super_password_123
-      POSTGRES_DB: autocloser
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=super_password_123
+      - POSTGRES_DB=evolution
     ports:
       - "5432:5432"
     volumes:
-      - autocloser_pgdata:/var/lib/postgresql/data
+      - autocloser_evolution_pgdata:/var/lib/postgresql/data
     restart: unless-stopped
 
-  # ─── Cache Redis ────────────────────────────────────────────────
   redis:
     image: redis:alpine
     container_name: autocloser-redis
@@ -62,27 +49,6 @@ services:
       - "6379:6379"
     restart: unless-stopped
 
-  # ─── Backend Spring Boot (AutoCloser Gateway) ───────────────────
-  autocloser-gateway:
-    image: IMAGE_AUTOCLOSER
-    container_name: autocloser-gateway
-    depends_on:
-      - autocloser-db
-      - redis
-      - evolution-api
-    ports:
-      - "3000:3000"
-    environment:
-      - SPRING_PROFILES_ACTIVE=prod
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://autocloser-db:5432/autocloser
-      - SPRING_DATASOURCE_USERNAME=postgres
-      - SPRING_DATASOURCE_PASSWORD=super_password_123
-      - AUTOCLOSER_EVOLUTION_API_BASE_URL=http://evolution-api:8080
-      - AUTOCLOSER_EVOLUTION_API_GLOBAL_APIKEY=AutocloserSecretKey2026
-      - SPRING_AI_OLLAMA_BASE_URL=http://host-gateway:11434
-    restart: unless-stopped
-
 volumes:
-  evolution_pgdata:
-  evolution_instances:
-  autocloser_pgdata:
+  autocloser_evolution_pgdata:
+  autocloser_evolution_instances:

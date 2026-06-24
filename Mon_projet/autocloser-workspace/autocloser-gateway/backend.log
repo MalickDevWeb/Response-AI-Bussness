@@ -1,3 +1,55 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36msn.autocloser:autocloser-gateway[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding autocloser-gateway 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/pmt/IA/Response-AI-Bussness/Mon_projet/autocloser-workspace/autocloser-gateway/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 6 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 68 source files with javac [debug parameters release 21] to target/classes
+[[1;34mINFO[m] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.3.0:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mautocloser-gateway[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 6 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/pmt/IA/Response-AI-Bussness/Mon_projet/autocloser-workspace/autocloser-gateway/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[[1;34mINFO[m] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.3.0:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mautocloser-gateway[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.3.0:run[m [1m(default-cli)[m @ [36mautocloser-gateway[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -7,690 +59,338 @@
 
  :: Spring Boot ::                (v3.3.0)
 
-2026-06-17T22:51:43.242Z  INFO 75308 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : Starting AutocloserGatewayApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 75308 (/home/pmt/IA/Response-AI-Bussness/Mon_projet/autocloser-workspace/autocloser-gateway/target/autocloser-gateway-0.0.1-SNAPSHOT.jar started by pmt in /home/pmt/IA/Response-AI-Bussness/Mon_projet/autocloser-workspace/autocloser-gateway)
-2026-06-17T22:51:43.250Z DEBUG 75308 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : Running with Spring Boot v3.3.0, Spring v6.1.8
-2026-06-17T22:51:43.256Z  INFO 75308 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-17T22:51:48.294Z  INFO 75308 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-06-17T22:51:48.301Z  INFO 75308 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-17T22:51:48.927Z  INFO 75308 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 607 ms. Found 5 JPA repository interfaces.
-2026-06-17T22:51:49.046Z  INFO 75308 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-06-17T22:51:49.055Z  INFO 75308 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-06-17T22:51:49.138Z  INFO 75308 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.ConversationJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-06-17T22:51:49.140Z  INFO 75308 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.CommercantJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-06-17T22:51:49.142Z  INFO 75308 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.CommandeJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-06-17T22:51:49.142Z  INFO 75308 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.MessageJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-06-17T22:51:49.143Z  INFO 75308 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.ProduitJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-06-17T22:51:49.143Z  INFO 75308 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 0 Redis repository interfaces.
-2026-06-17T22:51:51.893Z  INFO 75308 --- [autocloser-gateway] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 3000 (http)
-2026-06-17T22:51:52.015Z  INFO 75308 --- [autocloser-gateway] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-17T22:51:52.017Z  INFO 75308 --- [autocloser-gateway] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2026-06-17T22:51:52.183Z  INFO 75308 --- [autocloser-gateway] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-17T22:51:52.190Z  INFO 75308 --- [autocloser-gateway] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8655 ms
-2026-06-17T22:51:53.250Z  INFO 75308 --- [autocloser-gateway] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-17T22:51:54.184Z  INFO 75308 --- [autocloser-gateway] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54463380
-2026-06-17T22:51:54.200Z  INFO 75308 --- [autocloser-gateway] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-17T22:51:54.339Z  INFO 75308 --- [autocloser-gateway] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5435/autocloser (PostgreSQL 15.4)
-2026-06-17T22:51:54.595Z  INFO 75308 --- [autocloser-gateway] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 6 migrations (execution time 00:00.151s)
-2026-06-17T22:51:54.647Z  INFO 75308 --- [autocloser-gateway] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 6
-2026-06-17T22:51:54.656Z  INFO 75308 --- [autocloser-gateway] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
-2026-06-17T22:51:54.971Z  INFO 75308 --- [autocloser-gateway] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-17T22:51:55.146Z  INFO 75308 --- [autocloser-gateway] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2026-06-17T22:51:55.238Z  INFO 75308 --- [autocloser-gateway] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-06-17T22:51:55.963Z  INFO 75308 --- [autocloser-gateway] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-17T22:51:56.116Z  WARN 75308 --- [autocloser-gateway] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-06-17T22:51:59.418Z  INFO 75308 --- [autocloser-gateway] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-17T22:51:59.541Z  INFO 75308 --- [autocloser-gateway] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-17T22:52:01.342Z  INFO 75308 --- [autocloser-gateway] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-06-17T22:52:03.246Z  WARN 75308 --- [autocloser-gateway] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-06-17T22:52:03.325Z  WARN 75308 --- [autocloser-gateway] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-06-20T08:14:22.787Z  INFO 22070 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : Starting AutocloserGatewayApplication using Java 21.0.11 with PID 22070 (/home/pmt/IA/Response-AI-Bussness/Mon_projet/autocloser-workspace/autocloser-gateway/target/classes started by pmt in /home/pmt/IA/Response-AI-Bussness/Mon_projet/autocloser-workspace/autocloser-gateway)
+2026-06-20T08:14:22.795Z DEBUG 22070 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : Running with Spring Boot v3.3.0, Spring v6.1.8
+2026-06-20T08:14:22.798Z  INFO 22070 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-20T08:14:25.377Z  INFO 22070 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-20T08:14:25.380Z  INFO 22070 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-20T08:14:25.634Z  INFO 22070 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236 ms. Found 5 JPA repository interfaces.
+2026-06-20T08:14:25.670Z  INFO 22070 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-20T08:14:25.672Z  INFO 22070 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-20T08:14:25.703Z  INFO 22070 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.CommandeJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-20T08:14:25.704Z  INFO 22070 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.CommercantJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-20T08:14:25.704Z  INFO 22070 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.ConversationJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-20T08:14:25.704Z  INFO 22070 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.MessageJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-20T08:14:25.704Z  INFO 22070 --- [autocloser-gateway] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface sn.autocloser.infrastructure.adapter.out.persistence.entity.ProduitJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-20T08:14:25.705Z  INFO 22070 --- [autocloser-gateway] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2026-06-20T08:14:27.834Z  INFO 22070 --- [autocloser-gateway] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 3000 (http)
+2026-06-20T08:14:27.893Z  INFO 22070 --- [autocloser-gateway] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-20T08:14:27.895Z  INFO 22070 --- [autocloser-gateway] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2026-06-20T08:14:28.095Z  INFO 22070 --- [autocloser-gateway] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-20T08:14:28.100Z  INFO 22070 --- [autocloser-gateway] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5127 ms
+2026-06-20T08:14:28.920Z  INFO 22070 --- [autocloser-gateway] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-20T08:14:29.290Z  INFO 22070 --- [autocloser-gateway] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@658e7ead
+2026-06-20T08:14:29.294Z  INFO 22070 --- [autocloser-gateway] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-20T08:14:29.399Z  INFO 22070 --- [autocloser-gateway] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5435/autocloser (PostgreSQL 15.4)
+2026-06-20T08:14:29.632Z  INFO 22070 --- [autocloser-gateway] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 7 migrations (execution time 00:00.139s)
+2026-06-20T08:14:29.692Z  INFO 22070 --- [autocloser-gateway] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 7
+2026-06-20T08:14:29.702Z  INFO 22070 --- [autocloser-gateway] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-06-20T08:14:30.026Z  INFO 22070 --- [autocloser-gateway] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-20T08:14:30.191Z  INFO 22070 --- [autocloser-gateway] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-06-20T08:14:30.301Z  INFO 22070 --- [autocloser-gateway] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-20T08:14:31.038Z  INFO 22070 --- [autocloser-gateway] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-20T08:14:31.199Z  WARN 22070 --- [autocloser-gateway] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-20T08:14:34.549Z  INFO 22070 --- [autocloser-gateway] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-20T08:14:34.699Z  INFO 22070 --- [autocloser-gateway] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-20T08:14:36.751Z  INFO 22070 --- [autocloser-gateway] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-20T08:14:38.112Z  WARN 22070 --- [autocloser-gateway] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-20T08:14:38.157Z  WARN 22070 --- [autocloser-gateway] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 1b190bc5-ebc1-418b-95b5-0c1102dfa52d
+Using generated security password: 34c185bc-b77f-4757-aec5-70bb10493f55
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2026-06-17T22:52:03.397Z  INFO 75308 --- [autocloser-gateway] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-17T22:52:04.315Z  INFO 75308 --- [autocloser-gateway] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@376a34fb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@efbc6a1, org.springframework.security.web.context.SecurityContextHolderFilter@4678e08e, org.springframework.security.web.header.HeaderWriterFilter@1a9b9095, org.springframework.web.filter.CorsFilter@19544898, org.springframework.security.web.authentication.logout.LogoutFilter@37ecff9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37403f66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18cdacd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d63d553, org.springframework.security.web.access.ExceptionTranslationFilter@75715a14, org.springframework.security.web.access.intercept.AuthorizationFilter@618b147b]
-2026-06-17T22:52:06.527Z  INFO 75308 --- [autocloser-gateway] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 3000 (http) with context path '/'
-2026-06-17T22:52:06.563Z  INFO 75308 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : Started AutocloserGatewayApplication in 25.065 seconds (process running for 26.788)
-2026-06-17T22:53:53.507Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-17T22:53:53.508Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-17T22:53:53.517Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-Hibernate: 
-    select
-        cje1_0.id,
-        cje1_0.created_at,
-        cje1_0.email_notification,
-        cje1_0.instagram_actif,
-        cje1_0.nom_boutique,
-        cje1_0.pack_media_actif,
-        cje1_0.telephone_commercant,
-        cje1_0.tiktok_actif,
-        cje1_0.whatsapp_actif 
-    from
-        commercants cje1_0 
-    where
-        cje1_0.telephone_commercant=?
-Hibernate: 
-    select
-        cje1_0.id,
-        cje1_0.client_id,
-        cje1_0.commercant_id,
-        cje1_0.plateforme,
-        cje1_0.statut,
-        cje1_0.updated_at 
-    from
-        conversations cje1_0 
-    where
-        cje1_0.client_id=? 
-        and cje1_0.commercant_id=? 
-        and cje1_0.plateforme=?
-Hibernate: 
-    select
-        mje1_0.id,
-        mje1_0.contenu,
-        mje1_0.conversation_id,
-        mje1_0.created_at,
-        mje1_0.media_url,
-        mje1_0.role,
-        mje1_0.type_media 
-    from
-        messages mje1_0 
-    where
-        mje1_0.id=?
-Hibernate: 
-    insert 
-    into
-        messages
-        (contenu, conversation_id, created_at, media_url, role, type_media, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2026-06-17T22:54:08.505Z DEBUG 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.out.ia.RechercheRagAdapter       : 🔍 [RAG] Recherche pour : 'Avez-vous des téléphones Samsung ?' (commerçant: b34635ab-c88f-46b4-8204-4e0dc53f6b28)
-2026-06-17T22:54:08.506Z DEBUG 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.out.ia.OllamaGatewayAdapter      : 🔢 [OLLAMA EMBED] Génération du vecteur pour : 'Avez-vous des téléphones Samsung ?'
-2026-06-17T22:54:21.591Z DEBUG 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.out.ia.RechercheRagAdapter       : 🔢 [RAG] Vecteur de requête généré (3072 dims)
-2026-06-17T22:54:21.622Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.out.ia.RechercheRagAdapter       : ✅ [RAG] 0 produit(s) trouvé(s) pour 'Avez-vous des téléphones Samsung ?'
-Hibernate: 
-    select
-        mje1_0.id,
-        mje1_0.contenu,
-        mje1_0.conversation_id,
-        mje1_0.created_at,
-        mje1_0.media_url,
-        mje1_0.role,
-        mje1_0.type_media 
-    from
-        messages mje1_0 
-    where
-        mje1_0.conversation_id=? 
-    order by
-        mje1_0.created_at desc 
-    offset
-        ? rows 
-    fetch
-        first ? rows only
-2026-06-17T22:54:21.645Z DEBUG 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.out.ia.OllamaGatewayAdapter      : 🤖 [OLLAMA CHAT] Envoi du message à Llama...
-2026-06-17T22:55:09.248Z DEBUG 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.out.ia.OllamaGatewayAdapter      : 🤖 [OLLAMA CHAT] Réponse reçue (476 chars)
-Hibernate: 
-    select
-        mje1_0.id,
-        mje1_0.contenu,
-        mje1_0.conversation_id,
-        mje1_0.created_at,
-        mje1_0.media_url,
-        mje1_0.role,
-        mje1_0.type_media 
-    from
-        messages mje1_0 
-    where
-        mje1_0.id=?
-Hibernate: 
-    insert 
-    into
-        messages
-        (contenu, conversation_id, created_at, media_url, role, type_media, id) 
-    values
-        (?, ?, ?, ?, ?, ?, ?)
-2026-06-17T22:55:09.261Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 📤 [EVOLUTION] Envoi message vers 221771719013 via kyateuw002
-2026-06-17T22:55:09.329Z ERROR 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ❌ [EVOLUTION] Échec envoi vers 221771719013 : 404 Not Found: "{"status":404,"error":"Not Found","response":{"message":["The \"kyateuw002\" instance does not exist"]}}"
-2026-06-17T22:55:09.373Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:55:09.374Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:55:09.386Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:55:09.387Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:55:10.904Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:55:10.923Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:58:34.702Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:58:34.703Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:58:34.727Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:58:34.728Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:58:36.239Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:58:36.253Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:58:39.291Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:58:39.291Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:58:39.312Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:58:39.313Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:58:40.826Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:58:40.844Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:58:43.874Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:58:43.875Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:58:43.893Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:58:43.894Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:58:45.407Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:58:45.419Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:58:48.443Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:58:48.444Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:58:48.460Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:58:48.461Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:58:49.970Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:58:49.982Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:58:53.008Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:58:53.009Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:58:53.024Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:58:53.025Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:58:54.536Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:58:54.546Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:58:57.574Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:58:57.575Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:58:57.592Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:58:57.592Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:58:59.103Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:58:59.115Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:59:02.140Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:59:02.140Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:59:02.156Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:59:02.156Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:59:03.669Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:59:03.680Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:59:06.702Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:59:06.703Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:59:06.719Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:59:06.719Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:59:08.232Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:59:08.243Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:59:11.265Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:59:11.265Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:59:11.282Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:59:11.282Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:59:12.797Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:59:12.809Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:59:15.828Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:59:15.828Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:59:15.844Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:59:15.844Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:59:17.357Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:59:17.367Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:59:20.390Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:59:20.391Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:59:20.406Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:59:20.406Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:59:21.918Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:59:21.927Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T22:59:24.954Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T22:59:24.954Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T22:59:24.969Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T22:59:24.969Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T22:59:26.483Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T22:59:26.495Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-Hibernate: 
-    select
-        cje1_0.id,
-        cje1_0.created_at,
-        cje1_0.email_notification,
-        cje1_0.instagram_actif,
-        cje1_0.nom_boutique,
-        cje1_0.pack_media_actif,
-        cje1_0.telephone_commercant,
-        cje1_0.tiktok_actif,
-        cje1_0.whatsapp_actif 
-    from
-        commercants cje1_0 
-    where
-        cje1_0.telephone_commercant=?
-Hibernate: 
-    select
-        cje1_0.id,
-        cje1_0.created_at,
-        cje1_0.email_notification,
-        cje1_0.instagram_actif,
-        cje1_0.nom_boutique,
-        cje1_0.pack_media_actif,
-        cje1_0.telephone_commercant,
-        cje1_0.tiktok_actif,
-        cje1_0.whatsapp_actif 
-    from
-        commercants cje1_0 
-    where
-        cje1_0.telephone_commercant=?
-2026-06-17T23:47:01.790Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:01.791Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:01.836Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:01.837Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:03.358Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:03.376Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:06.413Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:06.414Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:06.442Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:06.445Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:07.969Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:07.987Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:11.026Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:11.027Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:11.041Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:11.041Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:12.559Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:12.574Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:15.605Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:15.606Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:15.628Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:15.628Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:17.142Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:17.161Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:20.197Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:20.198Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:20.215Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:20.216Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:21.731Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:21.746Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:24.785Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:24.786Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:24.805Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:24.806Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:26.322Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:26.340Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:29.380Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:29.381Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:29.404Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:29.405Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:30.933Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:30.947Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:33.983Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:33.984Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:34.012Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:34.013Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:35.530Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:35.550Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:38.590Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:38.591Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:38.615Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:38.616Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:40.134Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:40.156Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:43.197Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:43.198Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:43.222Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:43.223Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:44.740Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:44.759Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:47.795Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:47.797Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:47.820Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:47.821Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:49.336Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:49.352Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:47:52.394Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:47:52.395Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:47:52.422Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:47:52.423Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:47:53.941Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:47:53.958Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:06.011Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:06.012Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:06.032Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:06.034Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:07.553Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:07.572Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:10.608Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:10.609Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:10.643Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:10.644Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:12.163Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:12.179Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:15.209Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:15.209Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:15.233Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:15.234Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:16.751Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:16.770Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:19.811Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:19.811Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:19.830Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:19.831Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:21.346Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:21.362Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:24.389Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:24.390Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:24.406Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:24.407Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:25.923Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:25.935Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:28.963Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:28.964Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:28.983Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:28.983Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:30.499Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:30.520Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:33.560Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:33.560Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:33.582Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:33.583Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:35.106Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:35.121Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:38.150Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:38.152Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:38.181Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:38.182Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:39.702Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:39.714Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:42.744Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:42.745Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:42.768Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:42.769Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:44.284Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:44.299Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:47.333Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:47.334Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:47.352Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:47.353Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:48.869Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:48.882Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:51.914Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:51.914Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:51.935Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:51.935Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:53.450Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:53.464Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:48:56.493Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:48:56.494Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:48:56.513Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:48:56.513Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:48:58.032Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:48:58.043Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:49:59.263Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:49:59.264Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:49:59.288Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:49:59.289Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:02.917Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:02.955Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:05.993Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:05.994Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:06.022Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:06.024Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:07.543Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:07.558Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:10.595Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:10.595Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:10.616Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:10.618Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:12.136Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:12.150Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:15.186Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:15.187Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:15.210Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:15.211Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:16.731Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:16.750Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:19.783Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:19.783Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:19.798Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:19.798Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:21.315Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:21.330Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:24.372Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:24.373Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:24.392Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:24.393Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:25.909Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:25.926Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:28.959Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:28.960Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:28.981Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:28.983Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:30.495Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:30.524Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:33.567Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:33.568Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:33.587Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:33.587Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:35.098Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:35.112Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:38.144Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:38.144Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:38.166Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:38.167Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:39.685Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:39.700Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:42.737Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:42.738Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:42.760Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:42.760Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:44.277Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:44.293Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:47.321Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:47.322Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:47.340Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:47.340Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:48.858Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:48.874Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:50:51.908Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:50:51.909Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:50:51.951Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:50:51.952Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:50:53.465Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:50:53.483Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:55:25.565Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:55:25.566Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:55:25.600Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:55:25.601Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:55:27.117Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:55:27.141Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:55:30.173Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:55:30.173Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:55:30.191Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:55:30.192Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:55:31.707Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:55:31.722Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:55:34.757Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:55:34.758Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:55:34.777Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:55:34.778Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:55:36.291Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:55:36.308Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:55:39.344Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:55:39.345Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:55:39.369Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:55:39.370Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:55:40.886Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:55:40.900Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:55:43.927Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:55:43.928Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:55:43.961Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:55:43.963Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:55:47.516Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:55:47.533Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:55:50.564Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:55:50.565Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:55:50.589Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:55:50.590Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:55:52.107Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:55:52.134Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:55:55.210Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:55:55.211Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:55:55.236Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:55:55.237Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:55:56.747Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:55:56.758Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:56:00.216Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:56:00.216Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:56:00.239Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:56:00.239Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:56:01.754Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:56:01.778Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:56:05.205Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:56:05.206Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:56:05.217Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:56:05.217Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:56:06.726Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:56:06.734Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:56:10.206Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:56:10.206Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:56:10.222Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:56:10.223Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:56:11.732Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:56:11.738Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:56:15.205Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:56:15.205Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:56:15.219Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:56:15.220Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:56:16.727Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:56:16.738Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:56:20.321Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:56:20.322Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:56:20.345Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:56:20.345Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:56:21.859Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:56:21.870Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:23.222Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:23.222Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:23.246Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:23.247Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:24.769Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:24.792Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:27.848Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:27.849Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:27.862Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:27.862Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:29.369Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:29.377Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:32.391Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:32.391Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:32.403Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:32.403Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:33.910Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:33.919Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:36.943Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:36.944Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:36.965Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:36.965Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:38.487Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:38.494Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:41.509Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:41.510Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:41.523Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:41.523Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:43.036Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:43.046Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:46.063Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:46.064Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:46.075Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:46.075Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:47.583Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:47.604Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:51.207Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:51.208Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:51.219Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:51.220Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:52.739Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:52.747Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-17T23:59:56.209Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-17T23:59:56.210Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-17T23:59:56.231Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-17T23:59:56.231Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-17T23:59:57.746Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-17T23:59:57.755Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:00:01.209Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:00:01.210Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:00:01.229Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:00:01.230Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:00:02.745Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:00:02.767Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:00:06.205Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:00:06.206Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:00:06.216Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:00:06.217Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:00:07.724Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:00:07.743Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:00:11.213Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:00:11.214Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:00:11.231Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:00:11.232Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:00:12.743Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:00:12.758Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:00:15.775Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:00:15.776Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:00:15.792Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:00:15.793Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:00:17.308Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:00:17.316Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:22.214Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:22.214Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:22.227Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:22.227Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:23.742Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:01:25.807Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:28.849Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:28.850Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:28.871Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:28.872Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:30.401Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:01:30.412Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:33.439Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:33.440Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:33.453Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:33.454Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:34.969Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:01:34.986Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:38.019Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:38.020Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:38.042Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:38.043Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:39.562Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:01:39.579Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:42.612Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:42.613Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:42.637Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:42.638Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:44.152Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:01:44.170Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:47.200Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:47.201Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:47.225Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:47.226Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:48.746Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:01:48.763Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:51.799Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:51.800Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:51.821Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:51.821Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:53.340Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:01:53.357Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:01:56.393Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:01:56.393Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:01:56.421Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:01:56.422Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:01:59.994Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:02:00.020Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:02:03.055Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:02:03.056Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:02:03.075Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:02:03.076Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:02:04.592Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:02:04.608Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:02:07.642Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:02:07.643Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:02:07.668Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:02:07.669Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:02:09.186Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:02:09.204Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:02:12.229Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:02:12.230Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:02:12.248Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:02:12.248Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:02:13.768Z  INFO 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:02:13.784Z  WARN 75308 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:02:16.815Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
-2026-06-18T00:02:16.815Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
-2026-06-18T00:02:16.840Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
-2026-06-18T00:02:16.841Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
-2026-06-18T00:02:18.362Z  INFO 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
-2026-06-18T00:02:18.383Z  WARN 75308 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
-2026-06-18T00:07:15.153Z  INFO 75308 --- [autocloser-gateway] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T00:07:15.158Z  INFO 75308 --- [autocloser-gateway] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-18T00:07:15.162Z  INFO 75308 --- [autocloser-gateway] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-20T08:14:38.187Z  INFO 22070 --- [autocloser-gateway] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-20T08:14:38.853Z  INFO 22070 --- [autocloser-gateway] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@56de370d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f6865ca, org.springframework.security.web.context.SecurityContextHolderFilter@5a69f1ef, org.springframework.security.web.header.HeaderWriterFilter@354d5692, org.springframework.web.filter.CorsFilter@6044311a, org.springframework.security.web.authentication.logout.LogoutFilter@756476a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@219aab91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bdc984, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7416b560, org.springframework.security.web.access.ExceptionTranslationFilter@21ad0060, org.springframework.security.web.access.intercept.AuthorizationFilter@7e86ff3b]
+2026-06-20T08:14:40.543Z  INFO 22070 --- [autocloser-gateway] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 3000 (http) with context path '/'
+2026-06-20T08:14:40.564Z  INFO 22070 --- [autocloser-gateway] [           main] s.a.AutocloserGatewayApplication         : Started AutocloserGatewayApplication in 19.217 seconds (process running for 20.194)
+2026-06-20T08:14:53.439Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-20T08:14:53.440Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-20T08:14:53.444Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-06-20T08:14:53.574Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:14:53.580Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:14:54.200Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:14:54.201Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:14:56.466Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:14:58.637Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:15:00.810Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:15:03.087Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:15:05.348Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:15:07.525Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:15:09.692Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:15:12.003Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:15:14.256Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:15:16.417Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:15:18.580Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:15:20.813Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:15:23.063Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:15:25.214Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:15:25.465Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:15:44.255Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : pmt_test
+2026-06-20T08:15:44.255Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « pmt_test »
+2026-06-20T08:15:49.737Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ✅ [EVOLUTION] Instance « pmt_test » créée
+2026-06-20T08:15:49.738Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « pmt_test »
+2026-06-20T08:15:51.940Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « pmt_test »
+2026-06-20T08:15:54.116Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « pmt_test »
+2026-06-20T08:15:56.287Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « pmt_test »
+2026-06-20T08:15:58.450Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « pmt_test »
+2026-06-20T08:16:00.616Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « pmt_test »
+2026-06-20T08:16:02.826Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « pmt_test »
+2026-06-20T08:16:05.047Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « pmt_test »
+2026-06-20T08:16:07.324Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « pmt_test »
+2026-06-20T08:16:09.553Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « pmt_test »
+2026-06-20T08:16:11.807Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « pmt_test »
+2026-06-20T08:16:14.162Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « pmt_test »
+2026-06-20T08:16:16.335Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « pmt_test »
+2026-06-20T08:16:18.487Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « pmt_test »
+2026-06-20T08:16:20.649Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « pmt_test »
+2026-06-20T08:16:20.826Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « pmt_test »
+2026-06-20T08:23:19.983Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:23:19.985Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:23:25.631Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ✅ [EVOLUTION] Instance « boutiquetest » créée
+2026-06-20T08:23:25.632Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:23:27.836Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:23:30.088Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:23:32.340Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:23:34.516Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:23:36.745Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:23:38.991Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:23:41.250Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:23:43.495Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:23:45.757Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:23:48.111Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:23:50.356Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:23:52.712Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:23:54.965Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:23:57.225Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:23:57.398Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:24:00.440Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:24:00.441Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:24:00.751Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:24:00.751Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:24:02.917Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:24:05.206Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:24:07.386Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:24:09.538Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:24:11.695Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:24:13.917Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:24:16.177Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:24:18.666Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:24:21.830Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:24:24.055Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:24:27.294Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:24:29.892Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:24:32.883Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:24:35.524Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:24:36.801Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:24:39.838Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:24:39.839Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:24:40.180Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:24:40.181Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:24:42.377Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:24:45.905Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:24:48.139Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:24:51.500Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:24:55.160Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:24:57.539Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:24:59.718Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:25:01.944Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:25:04.298Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:25:06.552Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:25:08.798Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:25:11.050Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:25:13.309Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:25:15.563Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:25:15.801Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:25:18.834Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:25:18.835Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:25:19.094Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:25:19.095Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:25:21.332Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:25:23.550Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:25:25.724Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:25:27.954Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:25:30.206Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:25:32.421Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:25:34.611Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:25:36.787Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:25:40.958Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:25:43.212Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:25:45.464Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:25:47.819Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:25:49.995Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:25:52.146Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:25:52.375Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-7] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:25:55.411Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:25:55.412Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:25:55.777Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:25:55.778Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:25:57.916Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:26:00.107Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:26:02.281Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:26:04.440Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:26:06.663Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:26:08.804Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:26:11.066Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:26:13.317Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:26:15.572Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:26:17.823Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:26:20.231Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:26:22.404Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:26:24.685Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:26:26.937Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:26:27.198Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-8] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:26:30.235Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:26:30.236Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:26:30.452Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:26:30.453Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:26:32.600Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:26:34.814Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:26:37.177Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:26:39.431Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:26:41.683Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:26:43.886Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:26:46.189Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:26:48.442Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:26:50.592Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:26:52.845Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:26:55.019Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:26:59.193Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:27:01.481Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:27:03.699Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:27:03.850Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-9] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:27:06.891Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:27:06.892Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:27:07.133Z  WARN 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:27:07.134Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:27:09.332Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:27:11.587Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:27:13.849Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:27:16.091Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:27:18.343Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:27:20.589Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:27:22.850Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:27:25.102Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:27:27.252Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:27:29.411Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:27:31.852Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:27:34.034Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:27:36.256Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:27:38.524Z  INFO 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:27:38.667Z  WARN 22070 --- [autocloser-gateway] [io-3000-exec-10] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:27:41.699Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:27:41.699Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:27:41.874Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:27:41.874Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:27:44.046Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:27:46.402Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:27:48.553Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:27:50.724Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:27:52.948Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:27:55.215Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:27:57.381Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:27:59.539Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:28:01.762Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:28:03.941Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:28:06.166Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:28:08.424Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:28:10.569Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:28:12.822Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:28:13.075Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-1] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:28:16.108Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:28:16.109Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:28:16.282Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:28:16.283Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:28:18.455Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:28:20.604Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:28:22.754Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:28:25.007Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:28:27.363Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:28:29.615Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:28:31.868Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:28:34.122Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:28:36.465Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:28:38.729Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:28:40.982Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:28:43.235Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:28:45.582Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:28:47.764Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:28:47.919Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-2] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:28:50.956Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:28:50.956Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:28:51.108Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:28:51.109Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:28:53.249Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:28:55.391Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:28:57.674Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:28:59.927Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:29:04.272Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:29:06.667Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:29:08.938Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:29:11.082Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:29:13.342Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:29:15.594Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:29:17.840Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:29:20.099Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:29:22.345Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:29:24.605Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:29:24.850Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-3] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:29:27.888Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:29:27.888Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:29:28.143Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:29:28.143Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:29:30.340Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:29:32.592Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:29:34.776Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:29:36.996Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:29:39.250Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:29:41.494Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:29:43.747Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:29:46.017Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:29:48.260Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:29:50.513Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:29:52.972Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:29:55.224Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:29:57.478Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:29:59.730Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:29:59.906Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-4] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:30:02.941Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:30:02.942Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:30:03.159Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:30:03.160Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:30:05.464Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:30:07.717Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:30:09.969Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:30:12.230Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:30:14.406Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:30:16.621Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:30:18.879Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:30:21.131Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:30:23.386Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:30:25.568Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:30:27.801Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:30:29.962Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:30:32.114Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:30:34.343Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:30:34.594Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T08:31:12.085Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.i.w.c.OnboardingController       : 📱 [ONBOARDING] Demande QR pour l'instance : boutiquetest
+2026-06-20T08:31:12.086Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🛠️ [EVOLUTION] Création de l'instance « boutiquetest »
+2026-06-20T08:31:12.692Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⚠️ [EVOLUTION] Création instance « boutiquetest » → 403 FORBIDDEN : {"status":403,"error":"Forbidden","response":{"message":["This name \"boutiquetest\" is already in use."]}}
+2026-06-20T08:31:12.693Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/15 pour « boutiquetest »
+2026-06-20T08:31:14.995Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/15 pour « boutiquetest »
+2026-06-20T08:31:17.149Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 3/15 pour « boutiquetest »
+2026-06-20T08:31:19.396Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 4/15 pour « boutiquetest »
+2026-06-20T08:31:21.640Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 5/15 pour « boutiquetest »
+2026-06-20T08:31:23.902Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 6/15 pour « boutiquetest »
+2026-06-20T08:31:26.153Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 7/15 pour « boutiquetest »
+2026-06-20T08:31:28.307Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 8/15 pour « boutiquetest »
+2026-06-20T08:31:30.647Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 9/15 pour « boutiquetest »
+2026-06-20T08:31:32.906Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 10/15 pour « boutiquetest »
+2026-06-20T08:31:35.163Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 11/15 pour « boutiquetest »
+2026-06-20T08:31:37.402Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 12/15 pour « boutiquetest »
+2026-06-20T08:31:39.647Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 13/15 pour « boutiquetest »
+2026-06-20T08:31:41.914Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 14/15 pour « boutiquetest »
+2026-06-20T08:31:44.165Z  INFO 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 15/15 pour « boutiquetest »
+2026-06-20T08:31:44.314Z  WARN 22070 --- [autocloser-gateway] [nio-3000-exec-6] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 15 tentatives pour « boutiquetest »
+2026-06-20T12:11:22.358Z  INFO 22070 --- [autocloser-gateway] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-20T12:11:22.411Z  INFO 22070 --- [autocloser-gateway] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...

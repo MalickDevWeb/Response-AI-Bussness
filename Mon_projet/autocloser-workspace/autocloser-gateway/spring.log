@@ -313,3 +313,6 @@ This generated password is for development use only. Your security configuration
 2026-06-20T00:56:24.140Z  INFO 130995 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 1/2 pour « boutiquetest »
 2026-06-20T00:56:25.661Z  INFO 130995 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : 🔄 [EVOLUTION] Tentative QR 2/2 pour « boutiquetest »
 2026-06-20T00:56:25.673Z  WARN 130995 --- [autocloser-gateway] [nio-3000-exec-5] s.a.i.a.o.m.EvolutionApiAdapter          : ⏱️ [EVOLUTION] QR Code non disponible après 2 tentatives pour « boutiquetest »
+2026-06-20T02:53:43.249Z  INFO 130995 --- [autocloser-gateway] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-20T02:53:43.255Z  INFO 130995 --- [autocloser-gateway] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-20T02:53:43.259Z  INFO 130995 --- [autocloser-gateway] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
